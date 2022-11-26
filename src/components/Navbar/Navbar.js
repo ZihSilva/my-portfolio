@@ -26,7 +26,7 @@ export function Navbar() {
           <div className="hidden lg:block absolute left-14 bottom-1 group-hover:opacity-100 duration-300 opacity-0 py-2 px-3 bg-indigo-600 rounded-full">
             <p className="text-base">Projects</p>
           </div>
-          <Link to="project"   smooth= {true} duration={500}>
+          <Link to="project" smooth= {true}   duration={500}>
             <FaAtom />
           </Link>
         </li>

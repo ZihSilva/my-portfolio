@@ -1,39 +1,45 @@
+import image2 from "../../images/whoIsTheVillain.png";
+import image3 from "../../images/TSW.png";
+import image4 from "../../images/Tranquili-Tea.png";
+import image5 from "../../images/ballet.png";
 import { FaDownload } from "react-icons/fa";
-import image1 from  '../../images/whoIsTheVillain.png'
-
 
 export function Project() {
-return (
-    <div name="project"
-    className="bg-gradient-to-r from-indigo-300 to-indigo-500 min-h-screen py-20 max-h-full flex-clo flex items-center front-myfont justify-center ">
+
+  return (
     <div
-    className="w-2/3 mx-auto h-full flex flex-col justify-center">
-        <h1 className="sm:text-6xl text-3xl border-b-4 border-indigo-700 inline">
-            My projects
-        </h1>
-    </div>
-    <div className="mt-5 md:mt-8 grid md:grid-cols-2 gap-6">
-          {/* Works Container Starts */}
-          <div
+      name="project"
+      className="bg-indigo-300 dark:bg-slate-900 dark:text-white min-h-screen py-20 max-h-full w-full flex-col flex items-center font-myfont justify-center"
+    >
+      <div className="w-2/3 mx-auto h-full flex flex-col justify-center">
+        <div className="md:text-center font-bold">
+          <h1 className="text-white sm:text-6xl text-3xl border-b-4 border-indigo-700 inline">
+          Projects
+          </h1>
+        </div>
+        <div className="mt-5 md:mt-8 grid md:grid-cols-2 gap-6">
+        <div
             style={{
-              backgroundImage:{image1},
+              backgroundImage:
+              `url(${image2})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
             className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
-            <div className="w-full h-full bg-indigo-700 opacity-0 hover:opacity-100 duration-300">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Villain Quiz</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                 A Quiz About Movie Villains
+                  A fun game about movie villains
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.gandhi_quotes"
+                    href="github/zihsilva"
                     className="cursor-pointer block"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-white text-indigo-700 duration-300" />
                   </a>
@@ -41,29 +47,28 @@ return (
               </div>
             </div>
           </div>
-          {/* Works Container Ends */}
-          {/* Works Container Starts */}
           <div
             style={{
               backgroundImage:
-                'url("https://tsw.netlify.app/")',
+              `url(${image3})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
             className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
-            <div className="w-full h-full bg-indigo-700 opacity-0 hover:opacity-100 duration-300">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>TSW</p>
+                <p>TSW-Travel Safety for Women</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A Travel Website For Solo Women
+                  A website for solo travelers
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.igCapApp"
+                    href="https://tsw.netlify.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-white text-indigo-700 duration-300" />
                   </a>
@@ -71,29 +76,28 @@ return (
               </div>
             </div>
           </div>
-          {/* Works Container Ends */}
-          {/* Works Container Starts */}
           <div
             style={{
               backgroundImage:
-                'url(")',
+              `url(${image4})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
             className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
-            <div className="w-full h-full bg-indigo-700 opacity-0 hover:opacity-100 duration-300">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Tranquili-Tea</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A tea e-commerce and a forum to talk about teas.
+                  An e-commerce and forum about teas for well-being
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                  href="https://tranquili-tea.netlify.app/"
+                    href="https://tranquili-tea.netlify.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-white text-indigo-700 duration-300" />
                   </a>
@@ -101,39 +105,37 @@ return (
               </div>
             </div>
           </div>
-          {/* Works Container Ends */}
-          {/* Works Container Starts */}
-          <div
+        <div
             style={{
               backgroundImage:
-                'url()',
+              `url(${image5})`,
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
             className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
-            <div className="w-full h-full bg-indigo-700 opacity-0 hover:opacity-100 duration-300">
+            <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>Ballet Website</p>
+                <p>Dance School</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A ballet landing page
+                  A landing page for a dance school
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://play.google.com/store/apps/details?id=com.hanuman.chalisa.app.with.meaning"
+                    href="https://github.com/ZihSilva/Dance-School-Lading-Page"
                     className="cursor-pointer block"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
-                    <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-white text-indigo-700 duration-300" />
+                    <FaDownload className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-indigo-600 border-4 bg-white border-white text-indigo-700 duration-300" />
                   </a>
                 </div>
               </div>
             </div>
           </div>
-          {/* Works Container Ends */}
         </div>
       </div>
-    
-)
+    </div>
+  );
 }

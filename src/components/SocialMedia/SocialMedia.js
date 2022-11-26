@@ -1,14 +1,6 @@
-import { useContext } from "react";
-// import { Link } from "react-router-dom";
 
 
 import {
-  FaHome,
-  FaUser,
-  FaRegEnvelope,
-  FaAtom,
-  FaFacebookF,
-  FaInstagram,
   FaGithub,
   FaLinkedin,
 } from "react-icons/fa";
@@ -26,7 +18,7 @@ export function SocialMedia() {
         </div>
         <a
           href="https://www.linkedin.com/in/zimarlen-silva/"
-          target={"_blank"}
+          target={"_blank"} rel="noreferrer"
         >
           <FaLinkedin />
         </a>
@@ -35,7 +27,7 @@ export function SocialMedia() {
         <div className="hidden lg:block absolute right-14 bottom-1 group-hover:opacity-80 duration-300 opacity-0 py-2 px-3 bg-[#171515] rounded-full">
           <p className="text-base">Github</p>
         </div>
-        <a href="https://github.com/ZihSilva" target={"_blank"}>
+        <a href="https://github.com/ZihSilva" target={"_blank"} rel="noreferrer">
           <FaGithub />
         </a>
       </li>
