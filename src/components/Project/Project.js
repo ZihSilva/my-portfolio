@@ -1,7 +1,7 @@
 import image2 from "../../images/whoIsTheVillain.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
-import image5 from "../../images/ballet.png";
+import image5 from "../../images/Screenshot 2022-11-28 at 9.14.40 AM.png";
 import { FaDownload } from "react-icons/fa";
 
 export function Project() {
@@ -123,7 +123,7 @@ export function Project() {
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://github.com/ZihSilva/Dance-School-Lading-Page"
+                    href="https://leapforwarddanceschool.netlify.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
                     rel="noreferrer"
