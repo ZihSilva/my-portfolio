@@ -1,4 +1,4 @@
-import image2 from "../../images/VCL.png";
+import image2 from "../../images/VIL.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
 import image5 from "../../images/danceschool.png";
@@ -17,7 +17,7 @@ export function Project() {
           Projects
           </h1>
         </div>
-        <div className="mt-5 md:mt-8 grid md:grid-cols-2 gap-6">
+        <div className="mt-20 md:mt-8 grid md:grid-cols-2 gap-6">
         <div
             style={{
               backgroundImage:
