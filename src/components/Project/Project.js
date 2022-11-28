@@ -1,4 +1,4 @@
-import image2 from "../../images/vancouverlife.png";
+import image2 from "../../images/VCL.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
 import image5 from "../../images/danceschool.png";
