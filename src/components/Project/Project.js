@@ -1,7 +1,7 @@
 import image2 from "../../images/whoIsTheVillain.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
-import image5 from "../../images/Screenshot 2022-11-28 at 9.14.40 AM.png";
+import image5 from "../../images/danceschool.jpeg";
 import { FaDownload } from "react-icons/fa";
 
 export function Project() {
