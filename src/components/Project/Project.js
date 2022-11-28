@@ -1,4 +1,4 @@
-import image2 from "../../images/VANCOUVER ISLAND LIFE.png";
+import image2 from "../../images/vancouverlife.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
 import image5 from "../../images/danceschool.png";
@@ -30,9 +30,9 @@ export function Project() {
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>Villain Quiz</p>
+                <p>Vancouver Island Life</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A fun game about movie villains
+                A blog about life in Vancouver Island
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
