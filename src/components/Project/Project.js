@@ -1,7 +1,7 @@
-import image2 from "../../images/whoIsTheVillain.png";
+import image2 from "../../images/VANCOUVER ISLAND LIFE.png";
 import image3 from "../../images/TSW.png";
 import image4 from "../../images/Tranquili-Tea.png";
-import image5 from "../../images/danceschool.jpeg";
+import image5 from "../../images/danceschool.png";
 import { FaDownload } from "react-icons/fa";
 
 export function Project() {
@@ -36,7 +36,7 @@ export function Project() {
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="github/zihsilva"
+                    href="https://travelsite.zihsilva.com/"
                     className="cursor-pointer block"
                     target={"_blank"}
                     rel="noreferrer"
