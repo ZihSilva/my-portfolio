@@ -9,7 +9,8 @@
 
 # Responsive Portfolio
 
-- My personal portfolio was built, using React, JAVASCRIPT and Tailwind.
+- My personal portfolio to showcase some of my web development work.
+- Built using React, Javascript and, Tailwind.
 - Includes a dark and light mode.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
