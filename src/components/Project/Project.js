@@ -26,13 +26,13 @@ export function Project() {
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
-            className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+            className="w-full md:h-60 h-48 object-contain group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>TSW-Travel Safety for Women</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A website for solo travelers
+                  A website for solo travelers built with React, JavaScript and CSS.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -55,13 +55,13 @@ export function Project() {
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
-            className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+            className="w-full md:h-60 h-48 object-contain group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Tranquili-Tea</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  An e-commerce and forum about teas for well-being
+                  A tea e-commerce and forum built with React JS, JavaScript, axios, Node.js, Express, MongoDB and Tailwind.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -84,13 +84,13 @@ export function Project() {
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
-            className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+            className="w-full md:h-60 h-48 object-contain group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
                 <p>Dance School</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                  A landing page for a dance school using React
+                  A landing page for a dance school using React, Javascript and Tailwind.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -112,13 +112,13 @@ export function Project() {
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
-            className="w-full md:h-60 h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+            className="w-full md:h-60 object-contain h-48 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
           >
             <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p>TSW</p>
+                <p>Vancouver Island Life</p>
                 <p className="text-xl font-normal text-gray-200 mt-2">
-                A blog about life in Vancouver Island
+                A blog about life in Vancouver Island built with WordPress and Elementor.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
