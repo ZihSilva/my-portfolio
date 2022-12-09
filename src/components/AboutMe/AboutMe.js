@@ -25,9 +25,7 @@ export function AboutMe() {
             helped me develop a set of soft skills beyond coding, including:
             problem-solving, critical thinking, strong interpersonal and
             communication skills. I enjoy putting my ideas into digital form and
-            bringing them to life. My colleagues would describe me as a
-            positive, hardworking individual who maintains a positive, proactive
-            attitude when faced with adversity. Currently, I’m seeking
+            bringing them to life.  Currently, I’m seeking
             opportunities that will allow me to grow professionally and
             personally.
             </p>
