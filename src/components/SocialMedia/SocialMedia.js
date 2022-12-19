@@ -8,7 +8,7 @@ import {
 
 export function SocialMedia() {
   return (
-    <div className="fixed top-[30%] sm:right-6 right-3">
+    <div className="fixed top-[25%] sm:right-6 right-3">
     <ul className="flex flex-col gap-6">
   
    
