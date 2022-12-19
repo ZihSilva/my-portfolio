@@ -5,6 +5,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
+      
       screens: {
         'xs': '320px',
         ...defaultTheme.screens,
@@ -30,6 +31,8 @@ module.exports = {
       fontFamily: {
         'myfont': ['Josefin Sans', 'sans-serif'],
       },
+
+    
     },
   },
   plugins: [],

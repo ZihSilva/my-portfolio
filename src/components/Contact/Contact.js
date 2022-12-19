@@ -22,9 +22,9 @@ export function Contact() {
       name="contact"
       className="bg-indigo-400 dark:bg-slate-900 dark:text-white min-h-screen max-h-full w-full flex-col flex items-center font-myfont  justify-center"
     >
-      <div className="w-48 mx-4 h-full flex flex-col justify-center">
-        <div className="text-center mt-6 font-bold">
-          <h1 className="text-white text-2xl  sm:text-6xl border-b-4 border-indigo-600 inline">
+      <div className="w-48 mx-4 h-full flex flex-col justify-center sm:w-96">
+        <div className="text-center mt-4 font-bold">
+          <h1 className="text-white text-2xl  sm:text-3xl border-b-4 border-indigo-600 inline">
             Contact Me
           </h1>
         </div>
