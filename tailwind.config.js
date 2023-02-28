@@ -20,6 +20,7 @@ module.exports = {
         '1/1':'1/1',
         '16/9':'16/9'
       },
+
       backgroundImage: {
         'hero': "url('../public/images/hero.jpg')",
       },
@@ -32,8 +33,26 @@ module.exports = {
         'myfont': ['Josefin Sans', 'sans-serif'],
       },
 
+      colors: {
+        'blue2':'#ABA8A9',
+        'green': '#94AFAA',
+        "lime":"#ebf6d6",
+        'gray': '#a84b62',
+        'green': '#779682',
+        'rose': '#c2828f',
+        'moon': '#ebf6d6',
+        'midnight':"#003442",
+        'beige':"#dedcd7",
+        'dark':"#333333",
+        'ring':"#aba89e",
+        "blue-200":"#52949e"
+      
+      },
+
     
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+  ],
 }

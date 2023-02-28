@@ -2,3 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+
+    h4,  {
+        font-family: 'Satisfy', cursive;
+    }
+
+  h5,  {font-family: 'Nixie One', cursive;}
+
+ p, span { font-family: 'Nunito', sans-serif;}
+
+ @-webkit-keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    10%, 20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%, 50%, 70%, 90% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 3deg);
+    }
+    40%, 60%, 80% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  @keyframes tada {
+    from {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+    10%, 20% {
+      -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -6deg);
+      transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -6deg);
+    }
+    30%, 50%, 70%, 90% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 3deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, 3deg);
+    }
+    40%, 60%, 80% {
+      -webkit-transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -3deg);
+      transform: scale3d(1.25, 1.25, 1.25) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .tada {
+    animation-name: tada;
+    animation-duration: 1s;
+    animation-delay: 0.25s;
+  }
+
+  @font-face {
+    'myfont': ['Josefin Sans', 'sans-serif'],
+    'serif':['Gloock', 'serif']
+  }
+
+  .spin {
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+  .socialMedia{
+  
+    transform: rotate(360deg);
+      transition: transform 0.5s ease-out;
+  }
+
+  .pulse{
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    }
+  
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+  
+    100% {
+      transform: scale(0.95);
+    }
+  }
+  
+  
+}
